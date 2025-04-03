@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "701c446a-9541-40a3-ae43-04d001a56ed5",
+		"name": "seguros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37831289",
+		"_collection_link": "https://f88888-9575.postman.co/workspace/banregip~9220ea19-f493-4812-baaa-ba2255fb93ff/collection/37831289-701c446a-9541-40a3-ae43-04d001a56ed5?action=share&source=collection_link&creator=37831289"
+	},
+	"item": [
+		{
+			"name": "seguros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mso-es-consulta-seguros/v1/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mso-es-consulta-seguros",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mso-es-consulta-seguros/v1/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mso-es-consulta-seguros",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
